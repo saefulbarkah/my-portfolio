@@ -19,7 +19,7 @@ const Contact = () => {
             <Icon name="github" className="w-[25px]" />
             <span>saefulbarkah</span>
           </Card>
-          <Card className="flex items-center bg-white gap-3 text-gray-700 font-bold col-span-2 mx-[60px] mt-[20px] shadow-drop-r">
+          <Card className="flex items-center bg-white gap-3 text-gray-700 font-bold col-span-2 mx-[45px] mt-[20px] shadow-drop-r">
             <Icon name="gmail" className="w-[25px]" />
             <span>saefulbarkah650@gmail.com</span>
           </Card>
