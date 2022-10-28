@@ -7,6 +7,7 @@ module.exports = {
         dark: "#191C26",
         navbar: "#D9D9D9",
         "blue-nav": "#3500A6",
+        "purple-1": "#AD00FF",
       },
     },
   },

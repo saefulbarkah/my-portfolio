@@ -5,10 +5,12 @@ import Skiils from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Layouts from "./components/Layouts";
+import BackgroundDecoration from "./components/BackgroundDecoration";
 
 const App = () => {
   return (
     <>
+      <BackgroundDecoration />
       <Layouts>
         <Routes>
           <Route path="/" element={<About />}></Route>

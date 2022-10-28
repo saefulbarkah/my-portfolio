@@ -8,9 +8,17 @@
     background-color: #191c26;
     color: white;
     font-family: "Montserrat", sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
   }
 }
 
 .container__content {
-  @apply w-[850px] mx-auto h-screen border border-blue-600;
+  @apply w-[850px] mx-auto h-screen;
+}
+
+.shadow-drop-r {
+  box-shadow: 14px 11px 7px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 14px 11px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 14px 11px 7px 0px rgba(0, 0, 0, 0.75);
 }

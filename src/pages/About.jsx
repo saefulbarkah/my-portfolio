@@ -2,13 +2,12 @@ import React from "react";
 import Image from "../components/Image";
 import PageTitle from "../components/PageTitle";
 import Paragraph from "../components/Paragraph";
-import Avatar from "../../public/assets/images/avatar.png";
 const About = () => {
   return (
     <>
-      <section id="about">
+      <section id="about" className="overflow-hidden">
         <div className="w-full flex justify-center">
-          <Image src={Avatar} className="" />
+          <Image src="/assets/images/avatar.png" className="" />
         </div>
         <div className="flex w-full items-center justify-center flex-col text-center">
           <PageTitle name="Saeful Barkah" className="text-[32px]" />
