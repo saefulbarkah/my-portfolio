@@ -11,7 +11,7 @@ const Skills = () => {
         <div className="flex flex-col items-center">
           <PageTitle name="Skills" className="text-[32px]" />
         </div>
-        <div className="grid sm:grid-cols-3 sm:gap-10 gap-5 justify-center items-stretch mt-5">
+        <div className="grid sm:grid-cols-3 sm:gap-10 gap-6 justify-center items-stretch mt-5">
           <Card className="flex bg-purple-1/30 border border-purple-1 justify-center items-center gap-[10px] shadow-purple-1 shadow-lg">
             <Icon name="html" className="sm:w-[35px] w-[20px]" />
             <Paragraph text="HTML" className="font-semibold" />
