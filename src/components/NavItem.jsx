@@ -9,7 +9,7 @@ const NavItem = (props) => {
         end
         className={({ isActive }) =>
           isActive
-            ? "bg-blue-nav rounded-lg font-bold capitalize px-3 py-2 transition-all duration-300"
+            ? "bg-red-1 rounded-lg font-bold capitalize px-3 py-2 transition-all duration-300"
             : "font-bold capitalize px-3 py-2 transition-all duration-300"
         }
       >

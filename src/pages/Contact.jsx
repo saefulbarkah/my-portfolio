@@ -15,7 +15,7 @@ const Contact = () => {
             <Icon name="whatsapp" className="w-[25px]" />
             <span>083180012053</span>
           </Card>
-          <Card className="flex items-center bg-purple-1 gap-3 text-white font-bold shadow-drop-r">
+          <Card className="flex items-center bg-gray-1 gap-3 text-white font-bold shadow-drop-r">
             <Icon name="github" className="w-[25px]" />
             <span>saefulbarkah</span>
           </Card>
