@@ -3,10 +3,12 @@ import PageTitle from "../components/PageTitle";
 import Card from "../components/Card";
 import Image from "../components/Image";
 import Icon from "../components/Icon";
+import Title from "../components/Title";
 const Projects = () => {
   return (
     <>
-      <section id="contact" className="py-[75px]">
+      <Title title="Projects" />
+      <section id="Projects" className="py-[75px]">
         <div className="flex flex-col items-center">
           <PageTitle name="Personal Projects" className="text-[32px]" />
         </div>

@@ -2,12 +2,13 @@ import React from "react";
 import PageTitle from "../components/PageTitle";
 import Card from "../components/Card";
 import Paragraph from "../components/Paragraph";
-import Image from "../components/Image";
 import Icon from "../components/Icon";
+import Title from "../components/Title";
 const Skills = () => {
   return (
     <>
-      <section id="contact" className="sm:py-[150px] py-[30px]">
+      <Title title="Skills" />
+      <section id="Skills" className="sm:py-[150px] py-[30px]">
         <div className="flex flex-col items-center">
           <PageTitle name="Skills" className="text-[32px]" />
         </div>

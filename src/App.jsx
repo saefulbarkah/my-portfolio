@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Layouts from "./components/Layouts";
 import BackgroundDecoration from "./components/BackgroundDecoration";
+import Title from "./components/Title";
 
 const App = () => {
   return (

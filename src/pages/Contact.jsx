@@ -2,11 +2,13 @@ import React from "react";
 import Card from "../components/Card";
 import Icon from "../components/Icon";
 import PageTitle from "../components/PageTitle";
+import Title from "../components/Title";
 
 const Contact = () => {
   return (
     <>
-      <section id="contact" className="py-[150px]">
+      <Title title="Contact" />
+      <section id="Contact" className="py-[150px]">
         <div className="flex flex-col items-center">
           <PageTitle name="Contact" className="text-[32px]" />
         </div>
