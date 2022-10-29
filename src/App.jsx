@@ -10,8 +10,8 @@ import BackgroundDecoration from "./components/BackgroundDecoration";
 const App = () => {
   return (
     <>
-      <BackgroundDecoration />
       <Layouts>
+        <BackgroundDecoration />
         <Routes>
           <Route path="/" element={<About />}></Route>
           <Route path="/skills" element={<Skiils />}></Route>

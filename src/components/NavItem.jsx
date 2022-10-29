@@ -9,8 +9,8 @@ const NavItem = (props) => {
         end
         className={({ isActive }) =>
           isActive
-            ? "bg-red-1 rounded-lg font-bold capitalize px-3 py-2 transition-all duration-300"
-            : "font-bold capitalize px-3 py-2 transition-all duration-300"
+            ? "bg-red-1 rounded-lg font-bold capitalize sm:px-3 sm:py-2 py-3 px-2  transition-all duration-150"
+            : "font-bold capitalize sm:px-3 sm:py-2 py-3 px-2 transition-all duration-150"
         }
       >
         {props.name}

@@ -5,10 +5,13 @@ const BackgroundDecoration = () => {
   return (
     <>
       <div className="">
-        <Icon name="blob-t" className="absolute -right-[200px] -top-[250px]" />
+        <Icon
+          name="blob-t"
+          className="absolute sm:-right-[200px] sm:-top-[160px] -top-[300px] -right-[280px] -z-[99999]"
+        />
         <Icon
           name="blob-b"
-          className="absolute -left-[200px] -bottom-[160px]"
+          className="absolute sm:-left-[200px] sm:-bottom-[160px] -bottom-[50px] -left-[320px] -z-[99999]"
         />
       </div>
     </>

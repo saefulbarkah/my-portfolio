@@ -14,10 +14,6 @@
   }
 }
 
-.container__content {
-  @apply w-[850px] mx-auto h-screen;
-}
-
 .shadow-drop-r {
   box-shadow: 14px 11px 7px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 14px 11px 7px 0px rgba(0, 0, 0, 0.75);
