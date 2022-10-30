@@ -3,7 +3,7 @@ import React from "react";
 const Image = (props) => {
   return (
     <>
-      <img src={props.src} alt="" className={props.className} />
+      <img src={props.src} alt="" className={props.className} loading="lazy" />
     </>
   );
 };
